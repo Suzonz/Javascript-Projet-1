@@ -120,6 +120,7 @@ while (true) {
                                                                                                     break
                                                                                                 }
                                                                                                 else {
+
                                                                                                     if (choice == 1) {
                                                                                                         story = prompt("Vous avez déjà mangé le bonbon ! ")
                                                                                                         story = prompt("Le garde continue de vous fixer ")
@@ -262,153 +263,161 @@ while (true) {
 
                                                         choice = prompt("(1) Vous jetez le papier et vous cacher dans votre lit / (2) Vous décidez d'aller vous cette Chat-mane  ")
                                                         while (choice != 1 || choice != 2) {
-                                                            if (choice == 2) {
-                                                                story = prompt("Vous regardez le papier ")
-                                                                story = prompt("Il n'y a pas de numéro de téléphone, mais une adresse ")
-                                                                story = prompt("Vous tapez l'adresse dans votre téléphone, c'est assez loin ")
-                                                                story = prompt("Vous enfilez un sweatshirt, prenez vos clés de voiture et baissez la capuche bien bas sur votre visage ")
-                                                                story = prompt("Vous quittez votre domicile et vous rendez à votre voiture ")
-                                                                story = prompt("Vous vous installez et ouvrez votre GPS. Vous avez 50 minutes de route ")
-                                                                story = prompt("Au bout d'une demi-heure, le GPS vous fait prendre une petite route en terre ")
-                                                                story = prompt("La route vous emmène dans une forêt ")
-                                                                story = prompt("La forêt est épaisse. Plus vous avancez, moins la lumière du jour est visible ")
-                                                                story = prompt("D'un seul coup, vous ne voyez plus rien.  ")
+                                                            if (story == "stop") {
+                                                                if (choice == 2) {
+                                                                    story = prompt("Vous regardez le papier ")
+                                                                    story = prompt("Il n'y a pas de numéro de téléphone, mais une adresse ")
+                                                                    story = prompt("Vous tapez l'adresse dans votre téléphone, c'est assez loin ")
+                                                                    story = prompt("Vous enfilez un sweatshirt, prenez vos clés de voiture et baissez la capuche bien bas sur votre visage ")
+                                                                    story = prompt("Vous quittez votre domicile et vous rendez à votre voiture ")
+                                                                    story = prompt("Vous vous installez et ouvrez votre GPS. Vous avez 50 minutes de route ")
+                                                                    story = prompt("Au bout d'une demi-heure, le GPS vous fait prendre une petite route en terre ")
+                                                                    story = prompt("La route vous emmène dans une forêt ")
+                                                                    story = prompt("La forêt est épaisse. Plus vous avancez, moins la lumière du jour est visible ")
+                                                                    story = prompt("D'un seul coup, vous ne voyez plus rien.  ")
 
-                                                                choice = prompt("(1) Vous décidez d'allumer les phares de votre voiture / (2) Vous restez dans le noir  ")
-                                                                while (choice != 1 || choice != 2) {
-                                                                    if (choice == 1) {
-                                                                        story = prompt("Vous allumez les feux de croisement ")
-                                                                        story = prompt("La route se dévoile sous vos yeux ")
-                                                                        story = prompt("Vous continuez votre trajet ")
-                                                                        story = prompt("Lorsque vous arrivez à l'adresse du prospectus, vous découvrez un immense château ")
-
-                                                                        choice = prompt("(1) Vous allez frapper à la porte / (2) Vous faite le tour pour observer  ")
-                                                                        while (choice != 1 || choice != 2) {
+                                                                    choice = prompt("(1) Vous décidez d'allumer les phares de votre voiture / (2) Vous restez dans le noir  ")
+                                                                    while (choice != 1 || choice != 2) {
+                                                                        if (story == "stop") {
                                                                             if (choice == 1) {
-                                                                                story = prompt("Un garde ouvre une petite trappe sur la porte ")
-                                                                                story = prompt("A travers la trappe, vous pouvez voir des yeux luisants ")
-                                                                                story = prompt("Le garde vous fixe du regard ")
-                                                                                story = prompt("(1) Vous tentez d'expliquer la raison de votre présence / (2) Vous le fixez du regard en retour  ")
-                                                                                story = prompt("Le garde vous fixe du regard ")
-                                                                                story = prompt("... ")
-                                                                                story = prompt("Le garde vous fixe toujours du regard ")
-                                                                                story = prompt("De la bave coule le long de son visage poilu ")
-                                                                                story = prompt("Le garde semble avoir faim ")
-                                                                                story = prompt("Donner le bonbon ?  ")
+                                                                                story = prompt("Vous allumez les feux de croisement ")
+                                                                                story = prompt("La route se dévoile sous vos yeux ")
+                                                                                story = prompt("Vous continuez votre trajet ")
+                                                                                story = prompt("Lorsque vous arrivez à l'adresse du prospectus, vous découvrez un immense château ")
 
-                                                                                choice = prompt("(1) Oui / (2) Non  ")
+                                                                                choice = prompt("(1) Vous allez frapper à la porte / (2) Vous faite le tour pour observer  ")
                                                                                 while (choice != 1 || choice != 2) {
-                                                                                    if (choice == 1) {
-                                                                                        story = prompt("Vous avez déjà mangé le bonbon ! ")
-                                                                                        story = prompt("Le garde continue de vous fixer ")
-                                                                                        story = prompt("Vous suppliez le garde de vous laisser entrer ")
-                                                                                        story = prompt("Le garde vous fixe du regard ")
-                                                                                        story = prompt("Alors que de la sueur coule le long de votre visage, vous entendez un ricannement ")
-                                                                                        story = prompt("Une voix ordonne au garde de vous laisser passer ")
-                                                                                        story = prompt("Vous entrez dans le château ")
-                                                                                        story = prompt("Il est plongé dans le noir ")
-                                                                                        story = prompt("Vous apercevez une lueur au loin, vous décidez de vous approcher ")
-                                                                                        story = prompt("En entrant dans la pièce, vous distinguez une femme assise sur une pile de coussin ")
-                                                                                        story = prompt("C'est la vielle femme que vous avez aidée plus tôt ! ")
-                                                                                        story = prompt("Elle est installée devant une table avec une chaise vide ")
-                                                                                        story = prompt("Elle vous invite à vous asseoir ")
-                                                                                        story = prompt("Vous obéissez, tremblant ")
-                                                                                        story = prompt("Elle vous demande la raison de votre visite ")
-                                                                                        story = prompt("Après votre explication, elle vous fixe du regard en ricannant ")
-                                                                                        story = prompt("Vous êtes terrifié ")
-                                                                                        story = prompt("Puisque vous êtes une bonne personne, elle accepte de vous aider ")
-                                                                                        story = prompt("Elle vous donne un verre et vous ordonne de tout boire ")
-                                                                                        story = prompt("Vous êtes pétrifié, mais vous obéissez ")
-                                                                                        story = prompt("Vous ressentez une sensation étrange sur votre peau, puis vous perdez connaissance ")
-                                                                                        story = prompt("Vous vous reveillez dans votre voiture, près du parc ")
-                                                                                        story = prompt("Vous n'avez aucun souvenir de ce que vous faisiez ")
-                                                                                        story = prompt("Cependant, il fait vraiment beau aujourd'hui ")
-                                                                                        story = prompt("C'est un temps idéale pour se balader ")
-                                                                                        story = prompt(" ")
-                                                                                        story = prompt("Ending : Blissful oblivion ")
-                                                                                        story = "stop"
-                                                                                        end = " Blissful oblivion"
-                                                                                        break
-                                                                                    } else if (choice == 2) {
-                                                                                        story = prompt("Vous tentez de retrouver votre voiture pour y trouver à manger ")
-                                                                                        story = prompt("A peine avez-vous fait deux pas que vous buter sur une racine ")
-                                                                                        story = prompt("Vous perdez l'équilibre et tombez le long d'un ravin ")
-                                                                                        story = prompt("La dernière chose que vous voyez est l'obscurité' ")
-                                                                                        story = prompt(" ")
-                                                                                        story = prompt("Ending : Chute ")
-                                                                                        story = "stop"
-                                                                                        end = " Chute"
-                                                                                        break
-                                                                                    } else {
-                                                                                        choice = prompt("(1) Oui / (2) Non  ")
+                                                                                    if (story == "stop") {
+                                                                                        if (choice == 1) {
+                                                                                            story = prompt("Un garde ouvre une petite trappe sur la porte ")
+                                                                                            story = prompt("A travers la trappe, vous pouvez voir des yeux luisants ")
+                                                                                            story = prompt("Le garde vous fixe du regard ")
+                                                                                            story = prompt("(1) Vous tentez d'expliquer la raison de votre présence / (2) Vous le fixez du regard en retour  ")
+                                                                                            story = prompt("Le garde vous fixe du regard ")
+                                                                                            story = prompt("... ")
+                                                                                            story = prompt("Le garde vous fixe toujours du regard ")
+                                                                                            story = prompt("De la bave coule le long de son visage poilu ")
+                                                                                            story = prompt("Le garde semble avoir faim ")
+                                                                                            story = prompt("Donner le bonbon ?  ")
+
+                                                                                            choice = prompt("(1) Oui / (2) Non  ")
+                                                                                            while (choice != 1 || choice != 2) {
+                                                                                                if (story == "stop") {
+                                                                                                    if (choice == 1) {
+                                                                                                        story = prompt("Vous avez déjà mangé le bonbon ! ")
+                                                                                                        story = prompt("Le garde continue de vous fixer ")
+                                                                                                        story = prompt("Vous suppliez le garde de vous laisser entrer ")
+                                                                                                        story = prompt("Le garde vous fixe du regard ")
+                                                                                                        story = prompt("Alors que de la sueur coule le long de votre visage, vous entendez un ricannement ")
+                                                                                                        story = prompt("Une voix ordonne au garde de vous laisser passer ")
+                                                                                                        story = prompt("Vous entrez dans le château ")
+                                                                                                        story = prompt("Il est plongé dans le noir ")
+                                                                                                        story = prompt("Vous apercevez une lueur au loin, vous décidez de vous approcher ")
+                                                                                                        story = prompt("En entrant dans la pièce, vous distinguez une femme assise sur une pile de coussin ")
+                                                                                                        story = prompt("C'est la vielle femme que vous avez aidée plus tôt ! ")
+                                                                                                        story = prompt("Elle est installée devant une table avec une chaise vide ")
+                                                                                                        story = prompt("Elle vous invite à vous asseoir ")
+                                                                                                        story = prompt("Vous obéissez, tremblant ")
+                                                                                                        story = prompt("Elle vous demande la raison de votre visite ")
+                                                                                                        story = prompt("Après votre explication, elle vous fixe du regard en ricannant ")
+                                                                                                        story = prompt("Vous êtes terrifié ")
+                                                                                                        story = prompt("Puisque vous êtes une bonne personne, elle accepte de vous aider ")
+                                                                                                        story = prompt("Elle vous donne un verre et vous ordonne de tout boire ")
+                                                                                                        story = prompt("Vous êtes pétrifié, mais vous obéissez ")
+                                                                                                        story = prompt("Vous ressentez une sensation étrange sur votre peau, puis vous perdez connaissance ")
+                                                                                                        story = prompt("Vous vous reveillez dans votre voiture, près du parc ")
+                                                                                                        story = prompt("Vous n'avez aucun souvenir de ce que vous faisiez ")
+                                                                                                        story = prompt("Cependant, il fait vraiment beau aujourd'hui ")
+                                                                                                        story = prompt("C'est un temps idéale pour se balader ")
+                                                                                                        story = prompt(" ")
+                                                                                                        story = prompt("Ending : Blissful oblivion ")
+                                                                                                        story = "stop"
+                                                                                                        end = " Blissful oblivion"
+                                                                                                        break
+                                                                                                    } else if (choice == 2) {
+                                                                                                        story = prompt("Vous tentez de retrouver votre voiture pour y trouver à manger ")
+                                                                                                        story = prompt("A peine avez-vous fait deux pas que vous buter sur une racine ")
+                                                                                                        story = prompt("Vous perdez l'équilibre et tombez le long d'un ravin ")
+                                                                                                        story = prompt("La dernière chose que vous voyez est l'obscurité' ")
+                                                                                                        story = prompt(" ")
+                                                                                                        story = prompt("Ending : Chute ")
+                                                                                                        story = "stop"
+                                                                                                        end = " Chute"
+                                                                                                        break
+                                                                                                    } else {
+                                                                                                        choice = prompt("(1) Oui / (2) Non  ")
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        } else if (choice == 2) {
+                                                                                            story = prompt("Vous ne savez rien sur ce château, allez frapper serait probablement impoli ")
+                                                                                            story = prompt("Vous décidez d'observer les alentours ")
+                                                                                            story = prompt("Il fait noir ")
+                                                                                            story = prompt("Vous persistez, mais sans les chats pour vous guider, vous ne voyez rien ")
+                                                                                            story = prompt("Sans le savoir, vous commencez à vous éloigner du château ")
+                                                                                            story = prompt("Le temps passe ")
+                                                                                            story = prompt("Vous cherchez à rentrer chez vous ")
+                                                                                            story = prompt("Vous errez dans la forêt ")
+                                                                                            story = prompt("Il fait noir ")
+                                                                                            story = prompt("Vous vous perdez dans la forêt en tentant de rentrer chez vous ")
+                                                                                            story = prompt(" ")
+                                                                                            story = prompt("Ending : Perdu ")
+                                                                                            story = "stop"
+                                                                                            end = " Perdu"
+                                                                                            break
+                                                                                        } else {
+                                                                                            choice = prompt("(1) Vous allez frapper à la porte / (2) Vous faite le tour pour observer  ")
+                                                                                        }
                                                                                     }
                                                                                 }
                                                                             } else if (choice == 2) {
-                                                                                story = prompt("Vous ne savez rien sur ce château, allez frapper serait probablement impoli ")
-                                                                                story = prompt("Vous décidez d'observer les alentours ")
+                                                                                story = prompt("Vous restez dans le noir ")
                                                                                 story = prompt("Il fait noir ")
-                                                                                story = prompt("Vous persistez, mais sans les chats pour vous guider, vous ne voyez rien ")
-                                                                                story = prompt("Sans le savoir, vous commencez à vous éloigner du château ")
-                                                                                story = prompt("Le temps passe ")
-                                                                                story = prompt("Vous cherchez à rentrer chez vous ")
-                                                                                story = prompt("Vous errez dans la forêt ")
+                                                                                story = prompt("... ")
+                                                                                story = prompt("Pourquoi être dans le noir est-il si apaisant ? ")
+                                                                                story = prompt("... ")
+                                                                                story = prompt("... ")
+                                                                                story = prompt("Vous vous endormez ")
+                                                                                story = prompt("Lorsque vous vous réveillez, il fait toujours noir ")
+                                                                                story = prompt("Vous ne sentez plus votre siège ")
+                                                                                story = prompt("Vous ne sentez plus votre voiture ")
+                                                                                story = prompt("Vous ne sentez plus votre corps ")
+                                                                                story = prompt("Vous ne sentez plus rien ")
                                                                                 story = prompt("Il fait noir ")
-                                                                                story = prompt("Vous vous perdez dans la forêt en tentant de rentrer chez vous ")
                                                                                 story = prompt(" ")
-                                                                                story = prompt("Ending : Perdu ")
+                                                                                story = prompt("Ending : Noir ")
                                                                                 story = "stop"
-                                                                                end = " Perdu"
+                                                                                end = " Noir"
                                                                                 break
                                                                             } else {
-                                                                                choice = prompt("(1) Vous allez frapper à la porte / (2) Vous faite le tour pour observer  ")
+                                                                                choice = prompt("(1) Vous décidez d'allumer les phares de votre voiture / (2) Vous restez dans le noir  ")
+
                                                                             }
                                                                         }
-                                                                    } else if (choice == 2) {
-                                                                        story = prompt("Vous restez dans le noir ")
-                                                                        story = prompt("Il fait noir ")
-                                                                        story = prompt("... ")
-                                                                        story = prompt("Pourquoi être dans le noir est-il si apaisant ? ")
-                                                                        story = prompt("... ")
-                                                                        story = prompt("... ")
-                                                                        story = prompt("Vous vous endormez ")
-                                                                        story = prompt("Lorsque vous vous réveillez, il fait toujours noir ")
-                                                                        story = prompt("Vous ne sentez plus votre siège ")
-                                                                        story = prompt("Vous ne sentez plus votre voiture ")
-                                                                        story = prompt("Vous ne sentez plus votre corps ")
-                                                                        story = prompt("Vous ne sentez plus rien ")
-                                                                        story = prompt("Il fait noir ")
-                                                                        story = prompt(" ")
-                                                                        story = prompt("Ending : Noir ")
-                                                                        story = "stop"
-                                                                        end = " Noir"
-                                                                        break
-                                                                    } else {
-                                                                        choice = prompt("(1) Vous décidez d'allumer les phares de votre voiture / (2) Vous restez dans le noir  ")
-
                                                                     }
+                                                                } else if (choice == 1) {
+                                                                    story = prompt("Vous êtes terrifié à l'idée de sortir ")
+                                                                    story = prompt("Vous préférez vous réfugier dans votre lit en espérant que tout n'est qu'un cauchemar ")
+                                                                    story = prompt("Pendant la nuit, votre corps entier vous démange ")
+                                                                    story = prompt("Vous avez chaud, vous vous sentez malade ")
+                                                                    story = prompt("Vous ouvrez la fênetre pour sentir la brise sur votre peau ")
+                                                                    story = prompt("Vous passez la nuit en plein délire ")
+                                                                    story = prompt("Lorsque vous vous réveiller, votre corps est changé ")
+                                                                    story = prompt("Vous ne retrouvez plus vos main, mais d'adorable petites pattes poilues ")
+                                                                    story = prompt("Vous hurlez, mais seul un petit miaulement surgit ")
+                                                                    story = prompt("Vous sortez par la fenêtre pour demander de l'aide ")
+                                                                    story = prompt("Un passant vous récupère et vous emmène chez un vétérinaire ")
+                                                                    story = prompt("Vous vivez un véritable cauchemar.. ")
+                                                                    story = prompt("Finalement, le passant vous adopte ")
+                                                                    story = prompt("Vous êtes forcé à manger des croquettes pour le reste de votre vie ")
+                                                                    story = prompt(" ")
+                                                                    story = prompt("Ending : Vie de chat ")
+                                                                    story = "stop"
+                                                                    end = " Vie de chat"
+                                                                    break
+                                                                } else {
+                                                                    choice = prompt("(1) Vous jetez le papier et vous cacher dans votre lit / (2) Vous décidez d'aller vous cette Chat-mane  ")
                                                                 }
-                                                            } else if (choice == 1) {
-                                                                story = prompt("Vous êtes terrifié à l'idée de sortir ")
-                                                                story = prompt("Vous préférez vous réfugier dans votre lit en espérant que tout n'est qu'un cauchemar ")
-                                                                story = prompt("Pendant la nuit, votre corps entier vous démange ")
-                                                                story = prompt("Vous avez chaud, vous vous sentez malade ")
-                                                                story = prompt("Vous ouvrez la fênetre pour sentir la brise sur votre peau ")
-                                                                story = prompt("Vous passez la nuit en plein délire ")
-                                                                story = prompt("Lorsque vous vous réveiller, votre corps est changé ")
-                                                                story = prompt("Vous ne retrouvez plus vos main, mais d'adorable petites pattes poilues ")
-                                                                story = prompt("Vous hurlez, mais seul un petit miaulement surgit ")
-                                                                story = prompt("Vous sortez par la fenêtre pour demander de l'aide ")
-                                                                story = prompt("Un passant vous récupère et vous emmène chez un vétérinaire ")
-                                                                story = prompt("Vous vivez un véritable cauchemar.. ")
-                                                                story = prompt("Finalement, le passant vous adopte ")
-                                                                story = prompt("Vous êtes forcé à manger des croquettes pour le reste de votre vie ")
-                                                                story = prompt(" ")
-                                                                story = prompt("Ending : Vie de chat ")
-                                                                story = "stop"
-                                                                end = " Vie de chat"
-                                                                break
-                                                            } else {
-                                                                choice = prompt("(1) Vous jetez le papier et vous cacher dans votre lit / (2) Vous décidez d'aller vous cette Chat-mane  ")
                                                             }
                                                         }
                                                     } else {
